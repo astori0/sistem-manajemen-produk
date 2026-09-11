@@ -37,3 +37,9 @@ Sistem Manajemen Produk berbasis web yang dibangun menggunakan **CodeIgniter 3 (
   'username' => 'root',
   'password' => '', // Sesuaikan jika ada password
   'database' => 'db_sistem_produk',
+* Pastikan base_url di application/config/config.php terkonfigurasi:
+  ```php
+  $config['base_url'] = 'http://localhost/sistem-manajemen-produk/';
+### 3. Menjalankan Aplikasi
+```bash
+  http://localhost/sistem-manajemen-produk/
