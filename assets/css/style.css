@@ -1,0 +1,65 @@
+:root {
+    --warna-utama: #1b4332;      /* Deep Emerald */
+    --warna-sekunder: #2d6a4f;   /* Sage Emerald */
+    --warna-aksen: #c59b27;      /* Warm Gold */
+    --warna-bg: #fdfbf7;         /* Warm Sand Background */
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--warna-bg);
+    color: #2b2b2b;
+}
+
+.navbar-custom {
+    background-color: var(--warna-utama);
+    border-bottom: 3px solid var(--warna-aksen);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #ffffff !important;
+}
+
+.brand-accent {
+    color: var(--warna-aksen);
+}
+
+.btn-utama {
+    background-color: var(--warna-utama);
+    color: #fff;
+    border: none;
+}
+
+.btn-utama:hover {
+    background-color: var(--warna-sekunder);
+    color: #fff;
+}
+
+.btn-aksen {
+    background-color: var(--warna-aksen);
+    color: #fff;
+    border: none;
+}
+
+.btn-aksen:hover {
+    background-color: #a8821f;
+    color: #fff;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+}
+
+.badge-aktif {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.badge-nonaktif {
+    background-color: #f8d7da;
+    color: #842029;
+}
