@@ -1,4 +1,4 @@
-# 📦 Sistem Manajemen Produk (CodeIgniter 3)
+## 📦 Sistem Manajemen Produk (CodeIgniter 3) ##
 
 Sistem Manajemen Produk berbasis web yang dibangun menggunakan **CodeIgniter 3 (PHP 8)** dan **Bootstrap 5**. Aplikasi ini dilengkapi dengan fitur katalog produk, pembuatan kode otomatis berbasis kategori, penanganan variasi warna & ukuran, pencarian multi-filter, serta konfirmasi modal berbasis Bootstrap.
 
